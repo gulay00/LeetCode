@@ -1,4 +1,4 @@
-# 🔢 LeetCode Python Solutions
+# LeetCode Python Solutions
 
 This repository contains my Python solutions to popular **LeetCode** problems.
 
@@ -6,7 +6,7 @@ These challenges improve algorithmic thinking and problem-solving skills and hel
 
 ---
 
-## 📂 Problems Solved
+##  Problems Solved
 - **1. Two Sum** → `two_sum.py`
 - **9. Palindrome Number** → `palindrome_number.py`
 - **13. Roman to Integer** → `roman_to_integer.py`
@@ -16,7 +16,7 @@ These challenges improve algorithmic thinking and problem-solving skills and hel
 
 ---
 
-## 🧠 Topics
+##  Topics
 - Arrays  
 - Strings  
 - Two Pointers  
@@ -26,4 +26,4 @@ These challenges improve algorithmic thinking and problem-solving skills and hel
 
 ---
 
-⭐ More LeetCode solutions will be added as I continue practicing.
+ More LeetCode solutions will be added as I continue practicing.
