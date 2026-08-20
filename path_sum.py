@@ -1,0 +1,17 @@
+# 112. Path Sum
+# https://leetcode.com/problems/path-sum/
+
+class Solution:
+    def hasPathSum(self, root, targetSum):
+        if root is None:
+            return False
+
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+
+        remaining = targetSum - root.val
+
+        return (
+            self.hasPathSum(root.left, remaining)
+            or self.hasPathSum(root.right, remaining)
+        )
